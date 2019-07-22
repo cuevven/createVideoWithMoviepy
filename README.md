@@ -22,4 +22,7 @@ pip install -r requirements.txt
 python createVideoWithMoviepy.py
 ```
 
->.src/imgs 里要有图！
+## :bulb: 需要注意的事情
+
+- 你需要自己创建 `./src/images` 这个目录
+- `./src/imgs` 里要有图！
