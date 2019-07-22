@@ -1,0 +1,10 @@
+dist/*
+src/images
+src/imgs/*
+src/music/*
+src/subtitles/*
+__pycache__
+venv
+.DS_Store
+.vscode
+!.gitkeep
