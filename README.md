@@ -1,6 +1,6 @@
-# [createVideoWithMoviepy](https://github.com/cuevven/createVideoWithMoviepy)
+# [create video with Moviepy](https://github.com/cuevven/createVideoWithMoviepy)
 
-用 moviepy 把图片生成视频。
+用 moviepy 把图片生成视频。[代码的分析在这里](https://cuevven.github.io/Technology/Python/create-video-with-moviepy/)
 
 ## :star: 特性
 
