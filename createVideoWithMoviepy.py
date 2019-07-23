@@ -52,6 +52,11 @@ def main(width, height, images_origin, origin_target_dir, music, fps, output):
     filesPath = readDir(images_origin.replace(origin_target_dir[0], origin_target_dir[-1]))
     print('>>已载入文件 %s 个' % len(filesPath))
 
+    if len(filesPath) == 0:
+        print('>>请检查源目录 %s 下是否有图片。并且删除 %s 目录' % (images_origin, origin_target_dir[-1]))
+        os._exit(0)
+
+
     print('>>>>>>>>>>>>>>开始分析节拍>>>>>>>>>>>>>>')
     y, sr = librosa.load(music, sr=None)
     tempo, beats = librosa.beat.beat_track(y=y, sr=sr)
