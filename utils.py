@@ -66,7 +66,7 @@ def readDir(dirPath):
     if os.path.isdir(dirPath):
         fileList = os.listdir(dirPath)
         for f in fileList:
-            if f == '.DS_Store':
+            if f == '.DS_Store' or f == '.gitkeep':
                 continue
             
             f = dirPath+'/'+f
