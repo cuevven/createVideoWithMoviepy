@@ -68,7 +68,6 @@ def readDir(dirPath):
         for f in fileList:
             if f == '.DS_Store' or f == '.gitkeep':
                 continue
-            
             f = dirPath+'/'+f
             if os.path.isdir(f):
                 subFiles = readDir(f)
