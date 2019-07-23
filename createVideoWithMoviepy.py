@@ -57,8 +57,6 @@ def main(width, height, images_origin, origin_target_dir, music, fps, output):
     tempo, beats = librosa.beat.beat_track(y=y, sr=sr)
     beat_times = list(librosa.frames_to_time(beats, sr=sr))
     beat_times.append(beat_times[-1] + 1)
-    librosa.onset.onset_detect
-    librosa.onset.onset_strength
 
 
     clips = []
