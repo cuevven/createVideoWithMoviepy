@@ -24,5 +24,5 @@ python createVideoWithMoviepy.py
 
 ## :bulb: 需要注意的事情
 
-- 你需要自己创建 `./src/images` 这个目录
-- `./src/imgs` 里要有图！
+- `./src/music`目录，需要你自己扔首`.mp3`进去，然后在参数中指定路径；
+- 你需要自己创建 `./src/images` 这个目录，并且把原始图片放在里面；
