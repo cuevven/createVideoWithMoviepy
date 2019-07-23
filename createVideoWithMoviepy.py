@@ -34,9 +34,9 @@ from utils import resizeImage, readDir
 @click.command()
 @click.option('--width', prompt='Width', default=1920, help='The width of video clips')
 @click.option('--height', prompt='Height', default=1080, help='The height of video clips')
-@click.option('--images_origin', prompt='images file', default='./src/images/full/1353112775/2013', help='The source images path')
+@click.option('--images_origin', prompt='images file', default='./src/images/', help='The source images path')
 @click.option('--origin_target_dir', prompt='replace origin dir to target dir', default=('./src/images', './src/imgs'), help='how replace origin dir to target dir')
-@click.option('--music', prompt='Music file', default='./src/music/1302.彩虹.mp3', help='The music file')
+@click.option('--music', prompt='Music file', default='./src/music/1302.mp3', help='The music file')
 @click.option('--fps', prompt='video fps ', default=30, help='The output video fps')
 @click.option('--output', prompt='Output file', default='./dist/1353112775.mp4', help='The output file name')
 def main(width, height, images_origin, origin_target_dir, music, fps, output):
